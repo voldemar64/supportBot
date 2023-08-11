@@ -18,7 +18,7 @@ if HEROKU_APP_NAME is None:  # pooling mode
     updater.idle()
 
 else:  # webhook mode
-    print(f"Running bot in webhook mode. Make sure that this url is correct: https://{HEROKU_APP_NAME}.herokuapp.com/")
+    print(f"Running bot in webhook mode. Make sure that this url is correct: https://{HEROKU_APP_NAME}.amvera.io")
     updater.start_webhook(
         listen="0.0.0.0",
         port=PORT,
