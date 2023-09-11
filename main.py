@@ -1,4 +1,4 @@
-from telegram.ext import Updater
+from telegram.ext import Updater #я делаю мусорный коммит
 
 from handlers import setup_dispatcher
 from settings import TELEGRAM_TOKEN, PORT
